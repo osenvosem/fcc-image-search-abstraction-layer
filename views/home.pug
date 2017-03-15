@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  h2 DocumentFree Code Camp :: Image Search Abstraction Layer
+  hr
+  h3 Query example
+  a(href=`${host}/search/happy dog`) #{host}/search/happy dog
+
+  h4 Output form:
+  code
+    pre.
+      [
+        {
+          "url": "",
+          "thumbnail": "",
+          "description": "",
+          "parentPage": ""
+        }
+      ]
+      
+  h3 Latest requests example
+  
+  a(href=`${host}/latest`) #{host}/latest
+
+  h4 Output form:
+  code
+    pre.
+      [
+        {
+          "term": "",
+          "created": ""
+        }
+      ]
