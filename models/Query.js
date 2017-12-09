@@ -1,5 +1,5 @@
-const mongoose = require('mongoose')
-const { Schema } = mongoose
+const mongoose = require("mongoose");
+const { Schema } = mongoose;
 
 const querySchema = new Schema({
   term: {
@@ -10,6 +10,6 @@ const querySchema = new Schema({
     type: Date,
     default: Date.now()
   }
-})
+});
 
-module.exports = mongoose.model('Query', querySchema)
+module.exports = mongoose.model("Query", querySchema);

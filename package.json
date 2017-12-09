@@ -2,8 +2,10 @@
   "name": "fcc-image-search-abstraction-layer",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/osenvosem/fcc-image-search-abstraction-layer",
-  "author": "Sergey Samsonov <osenvosem@gmail.com>",
+  "repository":
+    "https://github.com/osenvosem/fcc-image-search-abstraction-layer",
+  "author":
+    "Sergei Samsonov <osenvosem@gmail.com> (https://github.com/osenvosem)",
   "license": "MIT",
   "engines": {
     "node": ">=7.6.0"
@@ -14,15 +16,13 @@
   },
   "dependencies": {
     "axios": "^0.15.3",
-    "global": "^4.3.1",
     "google-images": "^2.1.0",
     "koa": "^2.1.0",
     "koa-router": "next",
     "koa-static": "^3.0.0",
     "koa-views": "^6.0.1",
     "mongoose": "^4.8.6",
-    "pug": "^2.0.0-beta11",
-    "pug-lint": "^2.4.0"
+    "pug": "^2.0.0-beta11"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
